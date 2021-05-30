@@ -1,16 +1,3 @@
-# sms_reader
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# SMS Reader App
+This is a basic flutter app for an implementation for reading financial transaction data. This boilerplate app uses the [`sms`](https://pub.dev/packages/sms) package to read data from an Android Device.
+It uses a parser and spam keywords to distinguish between spam messages and bank messages.
